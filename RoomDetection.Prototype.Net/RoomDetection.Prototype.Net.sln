@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomDetection.Prototype.Net", "RoomDetection.Prototype.Net\RoomDetection.Prototype.Net.csproj", "{0C331E93-A0F2-4A82-A716-5816F2DEC767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomDetection.Prototype.Common", "RoomDetection.Prototype.Common\RoomDetection.Prototype.Common.csproj", "{6F91DE45-AFC0-42BC-B339-B87F1D2F3B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C331E93-A0F2-4A82-A716-5816F2DEC767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C331E93-A0F2-4A82-A716-5816F2DEC767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C331E93-A0F2-4A82-A716-5816F2DEC767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C331E93-A0F2-4A82-A716-5816F2DEC767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F91DE45-AFC0-42BC-B339-B87F1D2F3B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F91DE45-AFC0-42BC-B339-B87F1D2F3B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F91DE45-AFC0-42BC-B339-B87F1D2F3B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F91DE45-AFC0-42BC-B339-B87F1D2F3B03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AAD0797-593F-4A4F-BA3F-CF666E1A405A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+﻿@inject Microsoft.Extensions.Configuration.IConfiguration config;
+@{
+    ViewData["Title"] = "Home Page";
+    var context = new RoomDetection.Prototype.Common.RoomDetectionContext(config);
+    var rooms = context.Rooms.ToList();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Room Detector</h1>
+    <p>built by Taylor Smith</p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>Status</th>
+                <th>Last Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var room in rooms)
+            {
+                <tr class="js-@room.Name.ToLower().Replace(" ", "-")">
+                    <td>
+                        @room.Name
+                    </td>
+                    <td class="js-roomstatus">
+                        @room.RoomStatus
+                    </td>
+                    <td class="js-timestamp">
+                        @room.TimeStampSince
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
